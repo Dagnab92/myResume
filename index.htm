@@ -6,29 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Digital Resume</title>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" </head>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" >
+</head>
 
 <body>
     <header id="heading">
         <aside>
-        <img src="images/Headshot.jpeg" alt="Neil Bruce Headshot" width="153" height="200">
+            <img class="headshot" src="images/Headshot.jpeg" alt="Neil Bruce Headshot" width="350" height="421">
         </aside>
-        <h1>Neil Bruce</h1>
-        <p>Im a quick learner, im flexibil which means that when a difficult situation occurs I am able to keep calm and
+        <h1 style="color:#ffff">Neil Bruce</h1>
+        <p style="color:#ffff">Im a quick learner, im flexibil which means that when a difficult situation occurs I am
+            able to keep calm and
             focus on what is at hand in order to achieve a positive outcome.</p>
-        <p>I have a strong passion for technology and that is why I started by own IT business</p>
+        <p style="color:#ffff"> <b>I have a strong passion for technology and that is why I started by own IT
+                business</b></p>
     </header>
-    <section>
-        <aside>
-            <h2>Menu</h2>
-            <ul>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact details</a></li>
+    <section class="main">
+        <div class="sidePanel">
+        <nav>
+            <h4 id="menu">Menu</h4>
+            <ul class="navlist">
+                <li><a href="#education" style="color:black">Education</a></li>
+                <li><a href="#experience" style="color:black">Experience</a></li>
+                <li><a href="#skills" style="color:black">Skills</a></li>
+                <li><a href="#contact" style="color:black">Contact details</a></li>
             </ul>
-        </aside>
-        <article>
+        </nav>
+        </div>
+        <div class="content">
             <h2 id="education">Education</h2>
             <h3>Matric</h3>
             <p>Bergvliet High School (2005-2010)</p>
@@ -36,7 +41,7 @@
             <p>Varsity College (2011)</p>
             <h3>Bcomm Strategic Management</h3>
             <p>Varisity College (2012-2014)</p>
-            <h3>Into to Web at CodeSpace Acadamy</h3>
+            <h3>Into to Web at <a href="https://www.codespace.co.za" target="_blank">CodeSpace Acadamy</a></h3>
             <p>CodeSpace Acadamy (2022-2022)</p>
             <h2 id="experience">Experience</h2>
             <h3>Route 66</h3>
@@ -71,12 +76,24 @@
                 <li>Communication</li>
                 <li>Sales</li>
             </ul>
-        </article>
+        </div>
     </section>
     <footer>
-        <h2 id="contact">Contact Details</h2>
-        <p><a href="http://www.linkedin.com/">Linkedin</a></p>
-        <p><a href="https://www.facebook.com/neil.bruce.3781">Facebook</a></p>
+        <h3 id="contact">Contact Details</h3>
+        <ul>
+            <a href="http://www.linkedin.com/" target="_blank">
+                <img class="icons" src="images/Linkedin_icon.jpeg" alt="Neil Bruce Linkedin profile">
+            </a>
+            <a href="https://www.facebook.com/neil.bruce.3781" target="_blank">
+                <img class="icons" src="images/Facebook_icon.jpeg" alt="Neil Bruce Facebook profile">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img class="icons" src="images/Instagram_icon.jpeg" alt="Neil Bruce Instagram">
+            </a>
+            <a href="https://www.WhatsApp.com" target="_blank">
+                <img class="icons" src="images/WhatsApp_icon.jpeg">
+            </a>
+        </ul>
     </footer>
 </body>
 
