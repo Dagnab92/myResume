@@ -63,3 +63,7 @@ text-align: center;
  flex-direction: row;
  overflow: unset;
 }
+article{
+padding-left: 15%;
+padding-right: 15%;
+}
