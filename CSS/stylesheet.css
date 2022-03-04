@@ -1,5 +1,5 @@
 body{
-  font-family: helvetica;
+  font-family: helvetica;/*Sets the font style of the body content*/
   font-size:110%;
   background-color: #FCF7F8;
   display:flex;
@@ -12,7 +12,7 @@ header {
   justify-content: center;
 }
 .navlist{
-  list-style-type: none;
+  list-style-type: none; /*Removes the bullet points*/
   padding: 20px;
 }
 h2 {
@@ -25,16 +25,16 @@ h2 {
   border-color: black;
   margin-top: 0;
   text-align: center;
-}
+} /*Adds a border around the h2 elements with a shade of blue background*/
 #heading {
   background-color: #60a7e1;
 }
 footer {
-  background-color: #343330;
-  text-align: center;
+  background-color: #343330;/*Adds a background color to the footer*/
+  text-align: center; /*Centres the text*/
 }
 .icons {
-  border-radius: 25px;
+  border-radius: 25px; /*Adds a border around the icons in the footer*/
   margin: 2rem;
   height: 70px;
   width: 70px;
@@ -47,15 +47,15 @@ footer {
 .headshot {
   border-radius: 50%;
   border: 3px solid #cdcdd7;
-}
+} /*Adds a colored circle around the headshot of Neil*/
 .sidePanel {
   background-color: #e0e9e8;
   border-style: solid;
   border-color: black;
   border-width: 1px;
-}
+}/*Adds a border with a background color for this class*/
 #menu{
-font-size: 200% ;
+font-size: 200% ; /*Increases the font size*/
 text-align: center;
 }
 .main{
@@ -66,4 +66,4 @@ text-align: center;
 article{
 padding-left: 15%;
 padding-right: 15%;
-}
+} /*Shifts the content to the centre of the page*/
